@@ -1,0 +1,39 @@
+[
+    {
+      "_id": 1,
+      "name": "IGURE",
+      "img":"https://i.ibb.co/fSPW7yk/men-1.png",
+      "title": "GREEN MUSCLE FIT POLO SHIRT",
+      "retailPrice":"229.00",
+      "sellPrice":"129.00"
+    },
+    {
+      "_id": 2,
+      "name": "IGURE",
+      "img":"https://i.ibb.co/3WLBc4x/men-2.png",
+      "title": "GREEN MUSCLE FIT POLO SHIRT",
+      "retailPrice":"229.00",
+      "sellPrice":"129.00"
+    },
+    {
+      "_id": 3,
+      "name": "IGURE",
+      "img":"https://i.ibb.co/Ln5dmCD/men-3.png",
+      "title": "GREEN MUSCLE FIT POLO SHIRT",
+      "retailPrice":"229.00",
+      "sellPrice":"129.00"
+    },
+    {
+      "_id": 4,
+      "name": "IGURE",
+      "img":"https://i.ibb.co/cgBWZGZ/men-4.png",
+      "title": "GREEN MUSCLE FIT POLO SHIRT",
+      "retailPrice":"229.00",
+      "sellPrice":"129.00"
+    }
+   
+ 
+  ]
+
+
+  
