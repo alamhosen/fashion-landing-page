@@ -5,7 +5,6 @@ import facebook from '../../images/social/facebook.png'
 import instagram from '../../images/social/instagram.png'
 import twitter from '../../images/social/twitter.png'
 import linkedin from '../../images/social/linkedin.png'
-import FooterBottom from './FooterBottom';
 
 const Footer = () => {
     return (
@@ -23,7 +22,7 @@ const Footer = () => {
                             <div className='mt-6'>
                                 <div className='text-base'>
                                     <div className='flex mb-4'>
-                                        <img className='mr-6' src={location} alt="" srcset="" />
+                                        <img className='mr-6' src={location} alt="" srcSet="" />
                                         <p>Comilla, Bangladesh 3500</p>
                                     </div>
                                     <div className='mb-4'>
@@ -32,11 +31,11 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 {/* social start */}
-                                <div class="flex ">
-                                    <a href="http://"><img src={facebook} alt="" srcset="" /></a>
-                                    <a href="http://" className='mx-6'><img src={instagram} alt="" srcset="" /></a>
-                                    <a href="http://" className='mr-6'><img src={twitter} alt="" srcset="" /></a>
-                                    <a href="http://"><img src={linkedin} alt="" srcset="" /></a>
+                                <div className="flex ">
+                                    <a href="http://"><img src={facebook} alt="" srcSet="" /></a>
+                                    <a href="http://" className='mx-6'><img src={instagram} alt="" srcSet="" /></a>
+                                    <a href="http://" className='mr-6'><img src={twitter} alt="" srcSet="" /></a>
+                                    <a href="http://"><img src={linkedin} alt="" srcSet="" /></a>
 
                                 </div>
                                 {/* social end */}
@@ -50,19 +49,17 @@ const Footer = () => {
                                 <h2 className='font-bold text-2xl mb-4 text-black'>RECIVE EMAIL UPDATES</h2>
 
                                 {/* join with email start */}
-                                <div class="">
-                                    <div class="flex justify-start items-start">
-                                        <div class="relative">
-                                            <div class="absolute top-4 left-0"> <i class="fa fa-search text-gray-400 z-0 hover:text-gray-500"></i> </div> 
-                                            <input type="text" class="h-10 w-96 pl-5 pr-20 z-0 focus:shadow focus:outline-none" placeholder="Your Email Address"/>
-                                            <div class="absolute top-0 right-2"> <button class="h-10 w-20 text-black rounded-lg font-bold hover:text-gray-500">Join</button> </div>
+                                <div className="">
+                                    <div className="flex justify-start items-start">
+                                        <div className="relative">
+                                            <div className="absolute top-4 left-0"> <i className="fa fa-search text-gray-400 z-0 hover:text-gray-500"></i> </div> 
+                                            <input type="text" className="h-10 w-96 pl-5 pr-20 z-0 focus:shadow focus:outline-none" placeholder="Your Email Address"/>
+                                            <div className="absolute top-0 right-2"> <button className="h-10 w-20 text-black rounded-lg font-bold hover:text-gray-500">Join</button> </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 {/* join withemail end */}
-
-                                {/* <input type="text" placeholder="Your Email Address" class="input w-full max-w-xs rounded-none mb-1.5"/> */}
 
                             </div>
 

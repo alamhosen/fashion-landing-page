@@ -2,7 +2,6 @@ import React from 'react';
 import avone1 from '../../../images/Avone Styles/avone-1.png'
 import avone2 from '../../../images/Avone Styles/avone-2.png'
 import avone3 from '../../../images/Avone Styles/avone-3.png'
-import bg from '../../../images/Avone Styles/bg.png'
 
 const AvoneStyles = () => {
     return (
@@ -22,7 +21,7 @@ const AvoneStyles = () => {
                             <img src={avone2} alt="" />
                         </div>
                         <div className='flex gap-6 justify-end absolute bottom-0 right-0 h-72'>
-                            <div className='flex items-end ml-3 mb-5 underline underline-offset-8'>
+                            <div className='flex items-end ml-3 mb-5 underline underline-offset-8 hover:font-bold'>
                                 <a href="#">SHOW WOMEN’S DRESS</a>
                             </div>
                             <div>
