@@ -4,11 +4,11 @@ import featuredBG from '../../images/featuredBanner.png'
 const Featured = () => {
     return (
         <div>
-            <div class="max-h-fit flex items-end justify-start " style={{
+            <div class="max-h-fit flex justify-center items-center lg:items-end lg:justify-start sm:items-center sm:justify-center" style={{
                 backgroundImage: `url("${featuredBG}")`, height:"745px"
             }}>
                 
-                <div class="text-black lg:ml-56 xl:mb-28 xl:ml-56 lg:mb-24 sm:mb-10 sm:ml-10 md:mb-10 md:ml-10 mb-4 font-bold">
+                <div class="text-black lg:ml-36  lg:mb-24  xl:mb-28 xl:ml-36 sm:mb-10 sm:ml-10 md:mb-10 md:ml-10 mb-4 font-bold">
                     <div class="">
                         <h2 className='text-lg mb-2'>OWN THE DAY</h2>
                         <h1 class="mb-5 text-7xl font-bold ">TACHEN 19</h1>

@@ -4,7 +4,7 @@ import bannerBG from '../../images/banner-bg.png'
 const Banner = () => {
     return (
         <div>
-            <div class="max-h-fit mb-28 flex items-end justify-end " style={{
+            <div class="max-h-fit mb-28 flex items-center justify-center lg:items-end lg:justify-end md:items-end md:justify-end sm:items-end sm:justify-end xl:items-end xl:justify-end p-4" style={{
                 backgroundImage: `url("${bannerBG}")`, height:"745px"
             }}>
                 
