@@ -16,8 +16,9 @@ const Gallery = () => {
                         <div className='ml-3'><img src={gallery3} alt="" srcset="" /></div>
                     </div>
                 </div>
-                <div>
+                <div className='relative'>
                     <img src={gallery4} alt="" />
+                    <button className='absolute bottom-0 left-0 text-black btn btn-sm mb-6 ml-6 px-8 rounded-none bg-white text-lg'>CATAGORY NAME</button>
                 </div>
             </div>
         </div>

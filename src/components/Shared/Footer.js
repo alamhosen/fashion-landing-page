@@ -14,33 +14,33 @@ const Footer = () => {
                 backgroundImage: `url("${footerBG}")`
             }}>
                 <div className='grid grid-cols-1 lg:grid-cols-2 lg:max-w-6xl py-24 gap-4 p-4'>
-                    <div className='flex justify-center mb-12'>
+                    <div className='mb-12'>
                         <div>
-                        <div>
-                            <h2 className='font-bold text-2xl mb-4 text-black'>YOUR LOGO</h2>
-                            <p className='text-base'>We earned a reputation of being good at what we do. <br /> Let us take your online shop to new dimension in <br /> success!</p>
-                        </div>
-                        <div className='mt-6'>
-                            <div className='text-base'>
-                                <div className='flex mb-4'>
-                                    <img className='mr-6' src={location} alt="" srcset="" />
-                                    <p>Comilla, Bangladesh 3500</p>
-                                </div>
-                                <div className='mb-4'>
-                                    <p className='underline underline-offset-8 mb-2'>kawsarahmed0210@gmail.com</p>
-                                    <p>01647470457</p>
-                                </div>
+                            <div>
+                                <h2 className='font-bold text-2xl mb-4 text-black'>YOUR LOGO</h2>
+                                <p className='text-base'>We earned a reputation of being good at what we do. <br /> Let us take your online shop to new dimension in <br /> success!</p>
                             </div>
-                            {/* social start */}
-                            <div class="flex ">
-                                <a href="http://"><img src={facebook} alt="" srcset="" /></a>
-                                <a href="http://" className='mx-6'><img src={instagram} alt="" srcset="" /></a>
-                                <a href="http://" className='mr-6'><img src={twitter} alt="" srcset="" /></a>
-                                <a href="http://"><img src={linkedin} alt="" srcset="" /></a>
+                            <div className='mt-6'>
+                                <div className='text-base'>
+                                    <div className='flex mb-4'>
+                                        <img className='mr-6' src={location} alt="" srcset="" />
+                                        <p>Comilla, Bangladesh 3500</p>
+                                    </div>
+                                    <div className='mb-4'>
+                                        <p className='underline underline-offset-8 mb-2'>kawsarahmed0210@gmail.com</p>
+                                        <p>01647470457</p>
+                                    </div>
+                                </div>
+                                {/* social start */}
+                                <div class="flex ">
+                                    <a href="http://"><img src={facebook} alt="" srcset="" /></a>
+                                    <a href="http://" className='mx-6'><img src={instagram} alt="" srcset="" /></a>
+                                    <a href="http://" className='mr-6'><img src={twitter} alt="" srcset="" /></a>
+                                    <a href="http://"><img src={linkedin} alt="" srcset="" /></a>
 
+                                </div>
+                                {/* social end */}
                             </div>
-                            {/* social end */}
-                        </div>
                         </div>
                     </div>
                     {/* receive email address start */}
@@ -48,7 +48,22 @@ const Footer = () => {
                         <div>
                             <div>
                                 <h2 className='font-bold text-2xl mb-4 text-black'>RECIVE EMAIL UPDATES</h2>
-                                <input type="text" placeholder="Your Email Address" class="input w-full max-w-xs rounded-none mb-1.5" />
+
+                                {/* join with email start */}
+                                <div class="">
+                                    <div class="flex justify-start items-start">
+                                        <div class="relative">
+                                            <div class="absolute top-4 left-0"> <i class="fa fa-search text-gray-400 z-0 hover:text-gray-500"></i> </div> 
+                                            <input type="text" class="h-10 w-96 pl-5 pr-20 z-0 focus:shadow focus:outline-none" placeholder="Your Email Address"/>
+                                            <div class="absolute top-0 right-2"> <button class="h-10 w-20 text-black rounded-lg font-bold hover:text-gray-500">Join</button> </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* join withemail end */}
+
+                                {/* <input type="text" placeholder="Your Email Address" class="input w-full max-w-xs rounded-none mb-1.5"/> */}
+
                             </div>
 
                             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 mt-16 text-base gap-2 '>
